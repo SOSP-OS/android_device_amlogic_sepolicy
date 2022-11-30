@@ -6,6 +6,5 @@ allow fsck {
     dtbo_block_device
     metadata_block_device
     param_block_device
-    super_block_device
     tee_block_device
 }:blk_file { getattr read write open ioctl };
